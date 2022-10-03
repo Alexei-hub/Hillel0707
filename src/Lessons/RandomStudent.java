@@ -6,23 +6,23 @@ import java.util.Random;
 public class RandomStudent {
     public static void main(String[] args) {
         List<String> students = List.of(
-                "Анастасія  Прокопчук",
-                "Богдан  Желіба",
+//                "Анастасія  Прокопчук",
+//                "Богдан  Желіба",
                 "Ганна  Слісенко",
-                "Юлія Кривонос",
+//                "Юлія Кривонос",
                 "Павло Грищенко",
-                "Veronika Tarasova",
-                "Юля Рисінська",
+//                "Veronika Tarasova",
+//                "Юля Рисінська",
                 "Артем Ларичев",
-                "Віталій Швець",
-                "Катерина Іванова",
+//                "Віталій Швець",
+//                "Катерина Іванова",
                 "Дмитро Чуйков",
-//                "Тетяна Теслюк",
+                "Тетяна Теслюк",
 //                "Viktoriia Dziad",
-                "Vladyslav Kocherhin",
+//                "Vladyslav Kocherhin",
                 "Сергей Гончаренко",
-                "Владислав Тупиков"
-//                "Алла Тихевич"
+                "Владислав Тупиков",
+                "Алла Тихевич"
         );
 
         System.out.println(students.get(new Random().nextInt(students.size())));

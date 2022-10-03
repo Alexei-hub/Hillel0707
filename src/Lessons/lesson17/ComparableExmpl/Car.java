@@ -12,7 +12,7 @@ public class Car {
 
     @Override
     public String toString() {
-        return model + " " + this.year;
+        return this.model + " " + this.year;
     }
 
 }
